@@ -20,11 +20,10 @@ package="com.letzcycle">
         </intent-filter>
     </activity>
 
-
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 
     <meta-data android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyA6CNM5ywFXvHx0Hv7sPrAAMcR2wvEPh_k" />
+        android:value="AIzaSyCARc27G9u0otav13vCjX_8GVqBmUgdGk0 " />
 </application>
 
 </manifest>
