@@ -11,9 +11,10 @@
 
     <fragment
         android:id="@+id/map"
-        android:name="com.letzcycle.MapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:context="com.letzcycle.MainActivity" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -28,18 +29,17 @@
     </android.support.v7.widget.Toolbar>
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/tb_logo"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_alignBottom="@+id/toolbar"
         android:layout_alignTop="@+id/toolbar"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:layout_marginBottom="15dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
         android:contentDescription="name_logo"
-        android:src="@drawable/name_logo" />
+        android:src="@drawable/company_name" />
 
 </RelativeLayout>
