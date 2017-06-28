@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                             .position(latLng));
                 }
             } catch (JSONException e) {
-                Log.e(LOG_TAG, "JSON cannot exevute", e);
+                Log.e(LOG_TAG, "JSON cannot execute", e);
             }
 
         }
