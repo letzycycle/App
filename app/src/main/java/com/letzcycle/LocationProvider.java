@@ -117,6 +117,7 @@ public class LocationProvider implements
 
     @Override
     public void onLocationChanged(Location location) {
+
         mLocationCallback.handleNewLocation(location);
     }
 }
