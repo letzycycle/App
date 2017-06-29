@@ -92,8 +92,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         Button button = (Button) findViewById(R.id.unlock_btn);
         button.setTypeface(EasyFonts.walkwayBold(this));
-        // Register a listener to receive callbacks when a place has been selected or an error has
-        // occurred.
+
 
 
     }
