@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.addMarker(options);
         CameraPosition cameraPosition = new CameraPosition.Builder()
                 .target(new LatLng(currentLatitude,currentLongitude))      // Sets the center of the map to location user
-                .zoom(18f)                // Sets the orientation of the camera to east
+                .zoom(18f)
                 .tilt(30)                   // Sets the tilt of the camera to 30 degrees
                 .build();                   // Creates a CameraPosition from the builder
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
