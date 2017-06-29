@@ -62,19 +62,20 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/angry_btn"
+        android:id="@+id/unlock_btn"
 
         android:layout_width="151dp"
         android:layout_height="40dp"
 
-        android:layout_marginBottom="46dp"
-        android:background="@drawable/button_shape"
-        android:text="Request"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:layout_alignEnd="@+id/tb_logo"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/tb_logo"
-        android:layout_alignEnd="@+id/tb_logo" />
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/button_shape"
+        android:text="Unlock"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
 
 </RelativeLayout>

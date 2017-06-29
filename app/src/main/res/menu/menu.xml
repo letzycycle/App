@@ -2,10 +2,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_search_white_24dp"
+        android:title="Search"
+        app:showAsAction="ifRoom|collapseActionView" />
     <!-- Settings, should always be in the overflow -->
     <item android:id="@+id/action_settings"
         android:title="Action"
         app:showAsAction="always"
         android:icon="@mipmap/ic_more_vert_white_24dp"/>
+
 
 </menu>

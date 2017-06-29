@@ -2,7 +2,7 @@
     <string name="app_name">LetzCycle</string>
     <string name="title_activity_maps">Map</string>
 
-    <string name="google_api_key">AIzaSyA6CNM5ywFXvHx0Hv7sPrAAMcR2wvEPh_k</string>
+    <string name="google_api_key">AIzaSyCARc27G9u0otav13vCjX_8GVqBmUgdGk0</string>
 
 
     <string name="next">NEXT</string>
@@ -24,4 +24,10 @@
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
 
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

@@ -1,10 +1,14 @@
 package com.letzcycle;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.TextView;
+
+import com.vstechlab.easyfonts.EasyFonts;
 
 public class Splash extends AppCompatActivity {
 
@@ -17,9 +21,10 @@ public class Splash extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
         setContentView(R.layout.activity_splash);
 
+        TextView textView = (TextView) findViewById(R.id.splash_text);
+        textView.setTypeface(EasyFonts.caviarDreamsBold(this));
 
         Thread splashTread = new Thread() {
             @Override
