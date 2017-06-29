@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     public static final String TAG = MainActivity.class.getSimpleName();
 
-    private GoogleMap mMap; // Might be null if Google Play services APK is not available.
+    private GoogleMap mMap;
 
     private LocationProvider mLocationProvider;
     private ImageView imgMyLocation;
